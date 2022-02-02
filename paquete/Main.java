@@ -37,7 +37,7 @@ public class Main {
         f.setColor("verde","amarillo","rojo");
         
         /**
-         * instanciamos la clase Person con sus metodos.
+         * instanciamos la clase BankAccount con sus metodos.
          */
         
         BankAccount bk;
