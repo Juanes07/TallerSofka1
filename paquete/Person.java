@@ -4,7 +4,9 @@ package paquete;
  * @author JUANES
  */
 public class Person {
-    // variables nativas de clase
+    /**
+     * variables nativas de clase
+     */
     public String name;
     public String lastName1;
     public String lastName2;
@@ -21,7 +23,13 @@ public class Person {
     }  
     
     // metodos 
-    // con el metodo Set podemos modificar los valores de la clase persona pero sin alterar valores originales
+    
+    /**
+     *  ingresa el nombre que desea
+     * @param name Nombre de la Persona
+     * @param lastName1 Primer apellido  de la persona
+     * @param lastName2 Segundo apellido  de la persona
+     */
     public void SetName (String name,String lastName1, String lastName2){
     
         this.name = name;
@@ -29,15 +37,23 @@ public class Person {
         this.lastName2 = lastName2;
         System.out.println("Este es mi nombre por medio de un Set: " + name + " " + lastName1 + " " + lastName2);
     }
-    // con el get obtenemos el valor ya preestablecido en la clase persona
+    
+    /**
+     * Refleja el peso asignado
+     * @return El height asignado en el constructor
+     */
     public float getHeight(){   
         System.out.println("Mi peso es: " + height + " kg");
         return this.height;
     }
     
+    /**
+     * Refleja el nombre asignado
+     * @return El name asignado en el constructor
+     */
     public  String getName () {
         System.out.println("Este es mi nombre original: " + name);
-        return this.name;
+        return name;
     }
     
     
