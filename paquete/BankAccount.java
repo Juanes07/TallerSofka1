@@ -30,15 +30,11 @@ public class BankAccount {
         return activated;
     }
     /**
-     * En caso de instanciar este metodo antes del getActived, la cuenta nos arroja que esta desactiva.
-     * Pero si se instancia primero este metodo la cuenta siempre nos indicara que esta activada.
+     * Desactivamos la cuenta, dandole un valor false a activated
      */
     public void setActived(){
-        if(this.activated == false){
-            System.out.println("la cuenta "+ accountNumer +" esta desactivada");
-        } else {
-            System.out.println("la cuenta " +  accountNumer +" esta activada");
-        }
+        this.activated = false;
+        System.out.println("la cuenta "+ accountNumer +" esta desactivada");
     }
 }
 
