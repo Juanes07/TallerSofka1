@@ -21,7 +21,7 @@ public class Person {
     }  
     
     // metodos 
-    // con el metodo Set podemos modificar los valores de la clase persona pero sin alternar valores originales
+    // con el metodo Set podemos modificar los valores de la clase persona pero sin alterar valores originales
     public void SetName (String name,String lastName1, String lastName2){
     
         this.name = name;
@@ -39,5 +39,7 @@ public class Person {
         System.out.println("Este es mi nombre original: " + name);
         return this.name;
     }
+    
+    
       
 }

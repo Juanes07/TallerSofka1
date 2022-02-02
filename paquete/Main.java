@@ -1,4 +1,5 @@
 package paquete;
+import java.util.ArrayList;
 import java.util.Date;	
 import paquete.Person;
 import paquete.Fruits;
@@ -17,6 +18,11 @@ public class Main {
         p.SetName("Jonathan", "Velasquez", "Posada");
         p.getHeight();
         p.getName();
+        
+        Fruits f;
+        f = new Fruits();
+        f.getColor();
+        f.setColor("verde","amarillo","rojo");
     }
     
 }
