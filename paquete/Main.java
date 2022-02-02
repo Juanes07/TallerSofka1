@@ -1,5 +1,6 @@
 package paquete;
 import java.util.ArrayList;
+import java.util.Set;
 import paquete.Person;
 import paquete.Fruits;
 import paquete.BankAccount;
@@ -62,11 +63,14 @@ public class Main {
         cp.setRequire(500, "Nvidia", 2);
         cp.getLoad();
         
+        /**
+         * instanciamos la clase Plane con sus metodos.
+         */
         
-        
-        
-        
- 
+        Plane pl;
+        pl = new Plane();
+        pl.getTankCapacity();
+        pl.setArrival("Colombia", 20);
     }
     
 }

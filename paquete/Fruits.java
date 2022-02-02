@@ -15,10 +15,12 @@ public class Fruits {
      */
     public String name;
     private Float averageWeight;
-    
     public String color;
+    public String[] colors  = {"Roja", "Verde", "Morada"};
     
-    //constructor 
+    /**
+     * constructor
+     */
     public Fruits () {
     
     this.name = "Uvas";
@@ -49,13 +51,11 @@ public class Fruits {
         System.out.println("las uvas pueden ser de estos colores: " + color1 +" " + color2 + " " + color3);
     }
             
-    
     /**
-     *
+     * Refleja el contenido del array colors.
      * @return el arreglo colors.
      */ 
-    public static String[] getColor() {
-       String[] colors  = {"Roja", "Verde", "Morada"};
+    public  String[] getColor() {
        System.out.println("Colores generales de las uvas: " + Arrays.toString(colors));
        return colors;
     }

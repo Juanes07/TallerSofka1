@@ -11,7 +11,9 @@ public class BankAccount {
     boolean activated = false;
     
     
-    //constructor 
+    /**
+     * constructor
+     */
     public BankAccount(){
         this.accountNumer = 1234567890;
     }
@@ -19,7 +21,8 @@ public class BankAccount {
     //metodos
     
     /**
-     * Activa la cuenta ya que se inicializo como false;
+     * Se activa la cuenta en modo true ya que fue inicializada en false
+     * @return cuenta activada
      */
     public boolean getActived(){
         this.activated = true;

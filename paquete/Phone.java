@@ -1,5 +1,4 @@
 package paquete;
-
 /**
  *
  * @author JUANES
@@ -9,13 +8,15 @@ public class Phone {
      * variables nativas de clase
      */
     private long number;
-    private String manufacturer;
+    public String manufacturer;
     protected String so;
     public float height;
     public float weight;
     
+    /**
+     * construcgitor
+     */
     
-    //constructor
     public Phone (){
         this.number = 300500201;
         this.manufacturer = "Xiaomi";
@@ -25,11 +26,10 @@ public class Phone {
     }
     
     /**
-     * 
-     * @return el numero establecido en el constructor
+     * Numero asignado del telefono.
+     * @return un dato long el cual es el numero del telefono.
      */
     public long getNumber(){
-        this.number = number;
         System.out.println("El numero de mi telefono es: " + number);
         return number;
     }
@@ -40,19 +40,15 @@ public class Phone {
      * @param weight peso del telefono
      * @param manufacturer  Fabricante del telefono
      */
+    
     public void setStats(float height, float weight, String manufacturer){
         this.height = height;
         this.weight = weight;
         this.manufacturer = manufacturer;
         System.out.println("la Altura de mi telefono es: " + height + " cm " +" Su peso es de: "+ weight + " gramos" + " y es de marca: " + manufacturer);
-        
-    
     }
+}
 
-    
-    
-    
-    
     
     
     

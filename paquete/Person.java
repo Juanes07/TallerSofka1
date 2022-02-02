@@ -13,7 +13,9 @@ public class Person {
     public String dateBirth;
     public Float height;
    
-    //constructor
+    /**
+     * constructor
+     */
     public Person () {
         this.name = "Juan Esteban";
         this.lastName1 = "Velasquez";
@@ -25,7 +27,7 @@ public class Person {
     // metodos 
     
     /**
-     *  ingresa el nombre que desea
+     *  ingresa el nombre que se quiera
      * @param name Nombre de la Persona
      * @param lastName1 Primer apellido  de la persona
      * @param lastName2 Segundo apellido  de la persona
