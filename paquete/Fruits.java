@@ -1,27 +1,29 @@
 package paquete;
 import java.util.ArrayList;
 import java.util.Arrays;
+// se hacen import de librerias para uso de arrays
 /**
  *
  * @author JUANES
  */
 public class Fruits {
-    String name;
-    Float averageWeight;
-    String[] colors  = {"Roja", "Verde", "Morada"};
-    String color;
+    public String name;
+    
+    private Float averageWeight;
+    public String[] colors  = {"Roja", "Verde", "Morada"};
+    public String color;
     
     
     //constructor 
     public Fruits () {
     
-    name = "Uvas";
-    averageWeight = 200F;    
+    this.name = "Uvas";
+    this.averageWeight = 200F;    
     }
     
     //metodos
     
-    public float getAverageWeight(){
+    private float getAverageWeight(){
         System.out.println("el peso promedio de una sola uva es de :" + averageWeight + "gramos");
         return this.averageWeight;
     }

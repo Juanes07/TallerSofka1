@@ -1,9 +1,11 @@
 package paquete;
 import java.util.ArrayList;
 import java.util.Date;	
+import java.util.HashSet;
 import paquete.Person;
 import paquete.Fruits;
 import paquete.BankAccount;
+import paquete.Phone;
 
 
 /**
@@ -23,6 +25,18 @@ public class Main {
         f = new Fruits();
         f.getColor();
         f.setColor("verde","amarillo","rojo");
+        
+        BankAccount bk;
+        bk = new BankAccount();
+        bk.setActived();
+        //como la variable activated se inicializo en false, al instanciar el metodo setActived nos arroja que la cuenta esta desactiva.
+        //pero si instanciamos primero el metodo getActived y luego el metodo setActived este ultimo nos arroja que la cuenta esta activa
+        bk.getActived();
+        
+        
+        
+        
+ 
     }
     
 }

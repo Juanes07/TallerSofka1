@@ -5,11 +5,11 @@ package paquete;
  */
 public class Person {
     // variables nativas de clase
-    String name;
-    String lastName1;
-    String lastName2;
-    String dateBirth;
-    Float height;
+    public String name;
+    public String lastName1;
+    public String lastName2;
+    public String dateBirth;
+    public Float height;
    
     //constructor
     public Person () {
