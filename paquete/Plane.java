@@ -26,8 +26,8 @@ public class Plane {
     
     /**
      * Ingresa el lugar de llegada del avion con el numero de asientos ocupados
-     * @param arrivalRoute
-     * @param numberSeats 
+     * @param arrivalRoute lugar de llegada del avion
+     * @param numberSeats numero de asientos ocupados
      */
     
     public void setArrival(String arrivalRoute, int numberSeats){

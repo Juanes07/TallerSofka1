@@ -1,6 +1,5 @@
 package paquete;
 /**
- *
  * @author JUANES
  */
 public class Phone {
@@ -47,21 +46,4 @@ public class Phone {
         this.manufacturer = manufacturer;
         System.out.println("la Altura de mi telefono es: " + height + " cm " +" Su peso es de: "+ weight + " gramos" + " y es de marca: " + manufacturer);
     }
-}
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
